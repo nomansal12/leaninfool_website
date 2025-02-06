@@ -1,0 +1,37 @@
+[
+    {
+        "index": 0,
+        "title": "TRANSLATE 151 A SHARP MIN",
+        "tag": "#wavy #melodic",
+        "audio": "/audio/translate 151 a sharp min.mp3",
+        "img": "/assets/leainfool-logo.png"
+    },
+    {
+        "index": 1,
+        "title": "IK THEY KNOW 149",
+        "tag": "#wavy #melodic",
+        "audio": "/audio/ik they know 149.mp3",
+        "img": "/assets/leainfool-logo.png"
+    },
+    {
+        "index": 2,
+        "title": "TOUCH MOON 144 A MIN",
+        "tag": "#wavy #melodic",
+        "audio": "/audio/touch moon 144 a min.mp3",
+        "img": "/assets/leainfool-logo.png"
+    },
+    {
+        "index": 3,
+        "title": "GRAND FINALE 158 G MAJ",
+        "tag": "#wavy #melodic",
+        "audio": "/audio/grand finale 158 g maj.mp3",
+        "img": "/assets/leainfool-logo.png"
+    },
+    {
+        "index": 4,
+        "title": "2025 FREESTYLE 162 G MAJ",
+        "tag": "#wavy #melodic",
+        "audio": "/audio/2025 freestyle 162 g maj.mp3",
+        "img": "/assets/leainfool-logo.png"
+    }
+]

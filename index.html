@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaninfool Beats</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/assets/leainfool-logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <dialog id="beat-modal">
+        <div class="modal-content">
+            <button id="close-modal" aria-label="Close">&times;</button>
+            <img class="modal-logo" src="/assets/leainfool-logo.png">
+            <img class="modal-img" id="modal-img">
+            <div class="modal-text">
+                <h2 class="modal-title" id="modal-title"></h2>
+                <h3 class="modal-author" id="author">LEANINFOOL</h3>
+            </div> 
+
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+
+            <audio id="audio"></audio>
+            
+            <div class="navigation">
+                <button id="prev" class="action-btn">
+                    <i class="fa-solid fa-backward-step"></i>
+                </button>
+                
+                <button id="play" class="action-btn action-btn-big">
+                    <i class="fa-solid fa-circle-play"></i>
+                </button>
+
+                <button id="next" class="action-btn">
+                    <i class="fa-solid fa-forward-step"></i>
+                </button>
+            </div>
+
+            <!-- <button id="volume" class="action-btn">
+                <i class="fa-duotone fa-solid fa-volume-high"></i>
+            </button> -->
+
+        </div>
+    </dialog>
+
+    <dialog id="contact-modal">
+        <div class="contact-contents">
+            <button id="close-contact-modal" aria-label="Close">&times;</button>
+            <a href="mailto:leaninfool@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://www.youtube.com/@leaninfool" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/leaninfool" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </dialog>
+    <header>
+        <h1>LEANINFOOL</h1>
+        <img src="/assets/leainfool-logo.png">
+        <h1 id="contact">CONTACT</h1>
+    </header>
+    
+    <div class="container">
+        <div class="beats">
+
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
